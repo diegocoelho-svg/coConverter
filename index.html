@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>coConverter</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/coconut.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="converter-container">
+    <h1 id="title">coConverter</h1>
+
+    <div class="form-group">
+      <label for="amount">Value:</label>
+      <input type="text" id="amount" placeholder="Enter the value" required>
+    </div>
+
+    <div class="form-group">
+      <label for="from">From:</label>
+      <select name="currency" id="currency" required>
+        <option value="USD">Dollar (USD)</option>
+        <option value="BRL">Real (BRL)</option>
+        <option value="EUR">Euro (EUR)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="to">To:</label>
+      <select id="to">
+        <option value="BRL">Real (BRL)</option>
+        <option value="USD">Dollar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+      </select>
+    </div>
+
+    <footer>
+      <div id="result-container">
+        <span id="description">US$ 1 = R$ 4,86</span>
+        <h1 id="result">486,00 Reais</h1>
+      </div>
+    </footer>
+
+    <button type="submit">coConvert</button>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
