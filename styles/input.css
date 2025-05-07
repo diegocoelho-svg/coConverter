@@ -5,6 +5,10 @@ label {
   color: #444;
 }
 
+select {
+  cursor: pointer;
+}
+
 input, select {
   width: 100%;
   padding: 8px;

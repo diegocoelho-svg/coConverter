@@ -9,7 +9,6 @@
   --font-logo: "Playwrite DK Loopet", cursive;
 }
 
-
 body {
   height: 100vh;
   margin: 0;
@@ -21,6 +20,21 @@ body {
   background-repeat: repeat;
 }
 
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .converter-container {
   background: radial-gradient(circle at top left, #ffffff,rgb(240, 240, 240));
   padding: 30px 25px;
@@ -29,13 +43,6 @@ body {
   width: 30rem;
   max-width: 90%;
   overflow: hidden;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
 }
 
 #title {
@@ -70,19 +77,15 @@ h1 {
 
 #result {
   font-family: var(--font-family);
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: b;
   border: 1px solid rgb(117, 71, 29);
   border-radius: 5px;
-  padding: 3rem;
+  padding: 2rem;
   background: radial-gradient(circle at top left,rgb(255, 255, 255),rgb(255, 255, 255));
-
+  letter-spacing: 2px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-footer {
-  border-top: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
