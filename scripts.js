@@ -9,7 +9,7 @@ const result = document.getElementById("result")
 const currency = document.getElementById("currency")
 
 amount.addEventListener("input", () => {
-  const hasCharactersRegex = /\D+/g
+  const hasCharactersRegex = /[^\d.,]/g
   amount.value = amount.value.replace(hasCharactersRegex,"")
 })
 
@@ -32,12 +32,12 @@ convertButton.addEventListener("click", (event) => {
 function convertCurrency(amount, price, symbol) {
   try {
     // throw new Error("Forced Error");
-    
     description.textContent = `${symbol} 1 = ${formatCurrency(price)}`
 
-    let total = amount * price
+    let numericAmount = parseFloat(amount.replace(",", "."))
+    let total = numericAmount * price
 
-    if (isNaN(total)) {
+    if (Number.isNaN(total)) {
       return alert("Please enter the value correctly to convert.")
     }
 
