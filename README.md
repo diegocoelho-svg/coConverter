@@ -5,7 +5,7 @@
 The project allows you to convert a fixed amount in Brazilian Real (BRL) to one of the following currencies: **US Dollar (USD)**, **Euro (EUR)**, or **Norwegian Krone (NOK)**, using fixed exchange rates defined directly in the code.
 
 <div style="text-align: center;">
-  <img src="./assets/readme-image.png" alt="coConverter Screenshot" width="297"/> 
+  <img src="./assets/readme-image.png" alt="coConverter Screenshot" width="300"/> 
   <img src="./assets/readme-image-3.png" alt="coConverter Screenshot" width="330"/>
 </div>
 
