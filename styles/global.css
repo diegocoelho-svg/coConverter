@@ -77,8 +77,8 @@ footer {
 
 #result {
   font-family: var(--font-family);
-  font-size: 2rem;
-  font-weight: b;
+  font-size: clamp(0.875rem, 3.5vw, 2rem);
+  font-weight: 700;
   border: 1px solid rgb(117, 71, 29);
   border-radius: 5px;
   padding: 2rem;
@@ -86,6 +86,10 @@ footer {
   letter-spacing: 2px;
   max-width: 100%;
   box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  font-size: clamp(1rem, 3vw, 2rem);
+
 
   & span {
     font-size: 1.5rem;
