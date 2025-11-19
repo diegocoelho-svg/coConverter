@@ -36,7 +36,7 @@ This project was created for **educational purposes** as an exercise to practice
 
 ## 🔮 Future Improvements
 
-- 🌐 **Integration with currency exchange APIs** for real-time rates
+- ~~🌐 **Integration with currency exchange APIs** for real-time rates~~ ✅
 - 📱 **Responsiveness**, with design adjustments for mobile and tablet devices
 - 🔄 **Conversion between any two currencies**, not just from BRL to foreign currencies
 
